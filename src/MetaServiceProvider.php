@@ -19,7 +19,8 @@ class MetaServiceProvider extends PackageServiceProvider
             ->name('meta')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_meta_table')
+            ->hasMigration('2023_01_08_000000_create_meta_table')
+            ->runsMigrations('2023_01_08_000000_create_meta_table')
             ->hasCommand(MetaCommand::class);
     }
 }
