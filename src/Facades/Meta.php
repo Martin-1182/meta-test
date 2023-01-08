@@ -4,7 +4,6 @@ namespace Alfred\Meta\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-
 /**
  * @see \Alfred\Meta\Meta
  */

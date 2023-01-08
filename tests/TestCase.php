@@ -2,9 +2,9 @@
 
 namespace Alfred\Meta\Tests;
 
+use Alfred\Meta\MetaServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Alfred\Meta\MetaServiceProvider;
 
 class TestCase extends Orchestra
 {
